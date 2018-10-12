@@ -19,7 +19,7 @@ public class UserPredeterminado {
     private RolService rolService;
 
     @Autowired
-    public UserPredeterminado(UsuarioService usuarioService, RolService servicioRol) {
+    public UserPredeterminado(UsuarioService usuarioService, RolService rolService) {
         Usuario usuario = new Usuario();
         usuario.setNombres("Shantall");
         usuario.setApellidos("Giron");
@@ -34,16 +34,16 @@ public class UserPredeterminado {
             usuarioService.save(usuario);
         }
 
-        if (servicioRol.findAll().size() == 0) {
+        if (rolService.findAll().size() == 0) {
             Rol rol = new Rol();
             rol.setNombre("ROLE_ADMINISTRADOR");
             rol.setDescripcion("Este rol administra el programa.");
-            servicioRol.save(rol);
+            rolService.save(rol);
 
             rol = new Rol();
             rol.setNombre("ROLE_USUARIO");
             rol.setDescripcion("Este rol puede visualizar las paginas pero no crear contenido.");
-            servicioRol.save(rol);
+            rolService.save(rol);
         }
     }
 }
