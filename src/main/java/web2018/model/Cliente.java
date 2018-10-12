@@ -1,4 +1,4 @@
-package model;
+package web2018.model;
 
 import org.apache.commons.codec.binary.Base64;
 import org.hibernate.validator.constraints.NotEmpty;

@@ -1,7 +1,7 @@
-package services;
+package web2018.services;
 
 
-import model.Alquiler;
+import web2018.model.Alquiler;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

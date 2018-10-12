@@ -1,7 +1,7 @@
-package services;
+package web2018.services;
 
 
-import model.Usuario;
+import web2018.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

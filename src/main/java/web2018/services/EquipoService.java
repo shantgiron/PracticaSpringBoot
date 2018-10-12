@@ -1,6 +1,6 @@
-package services;
+package web2018.services;
 
-import model.Equipo;
+import web2018.model.Equipo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

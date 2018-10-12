@@ -1,4 +1,4 @@
-package model;
+package web2018.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

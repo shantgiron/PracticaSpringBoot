@@ -1,4 +1,4 @@
-package model;
+package web2018.model;
 
 import org.hibernate.validator.constraints.Email;
 
