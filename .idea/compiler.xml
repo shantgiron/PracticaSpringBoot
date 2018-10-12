@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="practica10_main" target="1.8" />
       <module name="practica10_test" target="1.8" />
+      <module name="PracticaSpringBoot_main" target="1.8" />
+      <module name="PracticaSpringBoot_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

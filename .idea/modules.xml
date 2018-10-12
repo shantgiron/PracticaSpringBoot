@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/practica10.iml" filepath="$PROJECT_DIR$/practica10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/practica10_main.iml" filepath="$PROJECT_DIR$/.idea/modules/practica10_main.iml" group="practica10" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/practica10_test.iml" filepath="$PROJECT_DIR$/.idea/modules/practica10_test.iml" group="practica10" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PracticaSpringBoot.iml" filepath="$PROJECT_DIR$/.idea/modules/PracticaSpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PracticaSpringBoot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PracticaSpringBoot_main.iml" group="PracticaSpringBoot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PracticaSpringBoot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PracticaSpringBoot_test.iml" group="PracticaSpringBoot" />
     </modules>
   </component>
 </project>
